@@ -13,7 +13,7 @@
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
 Version:	0.50.2
-Release:	%mkrel 15
+Release:	%mkrel 16
 Group:		System/Internationalization
 Source:        http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
 URL:		http://aspell.sourceforge.net/
