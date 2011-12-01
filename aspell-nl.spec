@@ -46,16 +46,16 @@ A %{languageenglazy} dictionary for use with aspell, a spelling checker.
 %make
 
 %install
-rm -fr $RPM_BUILD_ROOT
-make DESTDIR=$RPM_BUILD_ROOT install
+rm -fr %{buildroot}
+make DESTDIR=%{buildroot} install
 
 # fix doc perms
 chmod 644 README doc/*
 
-cd $RPM_BUILD_ROOT%{_libdir}/aspell && ln -s nl.rws nederlands
+cd %{buildroot}%{_libdir}/aspell && ln -s nl.rws nederlands
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -fr %{buildroot}
 
 %files
 %defattr(-,root,root)
