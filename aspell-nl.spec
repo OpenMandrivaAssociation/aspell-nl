@@ -13,7 +13,7 @@
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
 Version:	0.50.2
-Release:	21
+Release:	22
 Group:		System/Internationalization
 License:	GPLv2
 Url:		http://aspell.sourceforge.net/
