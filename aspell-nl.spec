@@ -12,8 +12,8 @@
 
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
-Version:	0.50.2
-Release:	28
+Version:	0.50_2
+Release:	1
 Group:		System/Internationalization
 License:	GPLv2
 Url:		http://aspell.sourceforge.net/
